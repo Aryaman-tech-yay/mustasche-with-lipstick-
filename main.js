@@ -2,7 +2,7 @@ noseX=0;
 noseY=0;
 
 function preload() {
-  clown_nose = loadImage('https://i.postimg.cc/3x3QzSGq/m.png');
+  clown_nose1 = loadImage('https://i.postimg.cc/3x3QzSGq/m.png');
   clown_nose = loadImage('https://i.postimg.cc/PxFvYgkv/l1.png');
 }
 
@@ -34,6 +34,7 @@ function gotPoses(results)
 function draw() {
   image(video, 0, 0, 300, 300);
   image(clown_nose, noseX, noseY, 80, 35);
+  image(clown_nose1, noseX, noseY, 80, 35);
 }
 
 function take_snapshot(){    
