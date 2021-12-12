@@ -29,7 +29,7 @@ function gotPoses(results)
     console.log(results);
     noseX1 = results[0].pose.nose.x-40;
     noseY1 = results[0].pose.nose.y;
-      noseX=results[0].pose.nose.x-40;
+      noseX=results[0].pose.nose.x-25;
       noseY=results[0].pose.nose.y+15;
   }
 }
